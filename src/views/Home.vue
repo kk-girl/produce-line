@@ -12,7 +12,7 @@
             <el-menu-item :index="'/algorithm'" @click="saveNavState('/algorithm')">算法管理</el-menu-item>
             <el-menu-item index="3">流程管理</el-menu-item>
             <el-menu-item :index="'/order'" @click="saveNavState('/order')">订单管理</el-menu-item>
-            <el-menu-item index="5">生产监控</el-menu-item>
+            <el-menu-item index="5">生产监控  </el-menu-item>
           </el-menu>
         </div>
         <div class="admin">
