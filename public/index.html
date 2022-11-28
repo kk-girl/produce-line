@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+  <script src="http://api.tianditu.gov.cn/api?v=4.0&tk=2806f65f26666577f3dc6f20d185477e">
+
+  </script>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+
+  <!-- 这里的tk为你在天地图的官网申请的tk -->
+  <!-- <script src="https://api.tianditu.gov.cn/api?v=4.0&tk=2806f65f26666577f3dc6f20d185477e"
+    type="text/javascript"></script> -->
+
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

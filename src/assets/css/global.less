@@ -1,0 +1,36 @@
+  html,
+  body,
+  #app,
+  .el-container {
+    /*设置内部填充为0，几个布局元素之间没有间距*/
+    padding: 0px;
+    /*外部间距也是如此设置*/
+    margin: 0px;
+    /*统一设置高度为100%*/
+    height: 100%;
+  }
+
+  // 滚动条样式
+  :deep .el-table__body-wrapper::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  :deep .el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background: #E5E5E5 !important;
+  }
+
+  :deep .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: #CCCCCC !important;
+  }
+
+
+  //树形结构滚动条样式
+  .el-scrollbar .el-scrollbar__wrap {
+    overflow-x: hidden;
+  }
+
+  .el-tree>.el-tree-node {
+    min-width: 100%;
+    display: inline-block;
+  }
